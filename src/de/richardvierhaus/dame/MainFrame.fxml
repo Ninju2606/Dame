@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1000.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.richardvierhaus.dame.StartScene">
+   <children>
+      <Region prefHeight="0.0" prefWidth="1.0" VBox.vgrow="ALWAYS" />
+      <Region prefWidth="1.0" VBox.vgrow="ALWAYS" />
+      <HBox>
+         <children>
+            <Region maxHeight="1.0" prefHeight="1.0" HBox.hgrow="ALWAYS" />
+            <Button mnemonicParsing="false" onAction="#play" prefHeight="200.0" prefWidth="500.0" text="SPIELEN">
+               <font>
+                  <Font name="Arial Bold" size="82.0" />
+               </font>
+            </Button>
+            <Region prefHeight="1.0" HBox.hgrow="ALWAYS" />
+         </children>
+      </HBox>
+      <Region prefHeight="0.0" prefWidth="1.0" VBox.vgrow="ALWAYS" />
+      <HBox>
+         <children>
+            <Region maxHeight="1.0" prefHeight="1.0" HBox.hgrow="ALWAYS" />
+            <Button mnemonicParsing="false" onAction="#startDeveloperMode" text="Developermodus">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Region maxHeight="1.0" prefHeight="1.0" HBox.hgrow="ALWAYS" />
+         </children>
+      </HBox>
+      <Region prefHeight="0.0" prefWidth="1.0" VBox.vgrow="ALWAYS" />
+   </children>
+</VBox>
